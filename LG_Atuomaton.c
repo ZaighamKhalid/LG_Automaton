@@ -44,6 +44,7 @@
 
 /***************************** LOCAL VARIABLES ********************************/
 
+#ifdef LG_TESTING
 const char lInputString[][11]=
 {
    "##########,"
@@ -57,6 +58,7 @@ const char lInputString[][11]=
    "#E     N #,"
    "##########"
 };
+#endif
 
 /* Priorities list */
 static LG_Direction_t lObsPriority[] =
